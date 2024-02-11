@@ -93,3 +93,68 @@ button:hover span {
 button:hover {
   border: none;
 }
+/* ---------------css for small screen--------------- */
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .navbar ul li {
+    margin: 0 5px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  button {
+    width: 120px;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+}
+
+/* ---------------css for tab screen--------------- */
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .navbar ul li {
+    margin: 0 10px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  button {
+    width: 120px;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+}
